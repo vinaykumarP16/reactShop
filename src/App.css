@@ -1,38 +1,1 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+body{  min-height: 100vh;  background-color: #f3d352;}nav{  display: flex;  justify-content: space-around;  align-items: center;  min-height: 10vh;  background-color: lightblue;}.links{  width: 40%;  list-style: none;  display: flex;  justify-content: space-around;  align-items: center;}.items{  display: flex;  max-width: 90%;  margin:auto;  flex-direction: row;  flex-wrap: wrap;  text-align: center;  text-decoration: none;}.Itemdata{  display: flex;  align-items: center;  max-width: 80%;  margin: auto;}.About{    display: flex;  max-width: 90%;  margin:auto;  flex-direction: column;  flex-wrap: wrap;  text-align: center;  text-decoration: none;} a{  text-decoration: none;  color:grey;}.About i{  font-size: 2em;  transition: 0.5s;  color: red;}.About i:hover{  font-size: 2.5em;  color: orange;}.Home{  display: flex;  max-width: 90%;  margin: auto;  text-align: center;  align-items: center;}@media screen and (max-width: 800px) {  .items{    display: flex;    max-width: 80%;    margin: auto;  }  .Itemdata{    display: flex;    max-width: 90%;    margin: auto;  }}
